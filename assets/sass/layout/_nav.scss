@@ -1,0 +1,80 @@
+.nav2 {
+
+    display: flex;
+    flex-direction: column;
+
+
+
+    .nav1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 158px;
+
+
+        h1 {
+            font-size: 40px;
+            line-height: 40px;
+            font-weight: 700;
+        }
+
+        .box3 {
+            display: flex;
+            justify-content: space-between;
+            gap: 200px;
+
+            input {
+                height: 48px;
+                width: 404px;
+                border-radius: 18px;
+                background-color: #F7F9FC;
+                font-size: 16px;
+                line-height: 19.2;
+
+            }
+
+            .search {
+                position: relative;
+
+                .fa-magnifying-glass {
+                    position: absolute;
+                    left: 370px;
+                    top: 15px;
+                    color: black;
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+        .box2 {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+
+            a {
+                text-decoration: none;
+                display: flex;
+                gap: 20px;
+                color: black;
+            }
+
+            .icon {
+                font-size: 20px;
+            }
+
+        }
+
+
+    }
+
+    .boxx1 {
+        margin: 0px;
+        .box4 {
+            display: flex;
+            gap: 30px;
+
+
+        }
+    }
+}

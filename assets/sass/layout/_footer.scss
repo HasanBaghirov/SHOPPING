@@ -1,0 +1,106 @@
+.footer-content {
+    background-color: #F7F7F9;
+    height: 546px;
+    
+   
+
+    hr {
+        margin-top: 40px;
+        opacity: 0.5;
+    }
+
+    .Snobella-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 39px;
+
+        h1 {
+            margin-top: 40px;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+
+        .content1 {
+            margin-top: 40px;
+            position: relative;
+
+            .input1-content {
+                height: 48px;
+                width: 404px;
+                border-radius: 8px;
+
+
+            }
+
+            .fa-magnifying {
+                position: absolute;
+                left: 375px;
+                font-size: 20px;
+                top: 10px;
+                border-radius: 0px;
+
+            }
+        }
+    }
+
+    .center-content {
+        display: flex;
+        
+     
+
+        .accaunt-content {
+            margin-top: 56px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            .button1 {
+                height: 48px;
+                width: 179px;
+                border: 1px solid darkgrey;
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 40px;
+                cursor: pointer;
+
+
+            }
+
+        }
+        .scf-content{
+            display: flex;
+            margin-left: 420px;
+           column-gap: 40px;
+           
+            .shop-content{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+          
+        }
+
+    }
+
+}
+
+.footer-content2{
+    .footer-end{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        height: 72px;
+        .web-apc{
+            display: flex;
+            gap: 20px;
+
+        }
+    }
+}
